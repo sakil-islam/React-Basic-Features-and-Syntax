@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 // import Person from './components/Person';
-import Book from './components/Book';
+import Book from './components/representational/Book';
 
 
 // JSX Functional Component
