@@ -15,6 +15,7 @@ import '../../stylesheets/Book.css';
 
 
 const Book = props => {
+    console.log("i am from book");
     return (
         <div className="Book">
             <h3 onClick={props.delete}>Book: {props.bookName}</h3>
