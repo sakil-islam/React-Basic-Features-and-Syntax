@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../stylesheets/Book.css';
-
+import { withRouter } from 'react-router-dom';
 
 // const Book = props => {
 //     return (
@@ -15,7 +15,7 @@ import '../../stylesheets/Book.css';
 
 
 const Book = props => {
-    console.log("i am from book");
+    console.log(props);
     return (
         <div className="Book">
             <h3 onClick={props.delete}>Book: {props.bookName}</h3>
@@ -26,4 +26,4 @@ const Book = props => {
     );
 }
 
-export default Book;
+export default withRouter(Book);
